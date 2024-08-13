@@ -20,16 +20,39 @@
     margin: 0px auto;
     /* background-color: black; */
 }
-
+main{
+    background-color: #000000;
+}
+section{
+    margin: 0px auto;
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+.line-gap{
+    margin: 1.2rem 0px;
+}
 .primary-color{
     color:#E6533C ;
 }
 .primary-button{
 background-color: #E6533C;
 }
+.shared-button{
+    background-color: #E6533C;
+    padding: 1.3rem 4rem;
+    border-radius: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    margin: 0px;
+}
 .description{
-    font-size: 1.2rem;
+    font-size: 1rem;
     opacity: 50%;
+}
+.title{
+    font-size: 3.7rem;
+    font-weight: 900;
 }
 
 .flex{
@@ -39,7 +62,8 @@ background-color: #E6533C;
 
 /* NavBar */
 header{
-    background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.74),rgb(30, 30, 30) 50%, rgba(1,1,1,0.71) 100%);
+    /* background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.74),rgb(30, 30, 30) 50%, rgba(1,1,1,0.71) 100%); */
+    background-image: linear-gradient(180deg, rgba(8, 8, 8, 1),rgb(48, 47, 47) 30%, rgba(1,1,1,1) 100%);
 }
 nav{
     max-width: 80%;
@@ -161,4 +185,50 @@ button{
     color: #EFEDE8;
     font-size: 1.3rem;
     opacity: 65%;
+}
+
+/* Habit Section */
+.habit-container{
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.habit-content{
+    max-width: 43rem;
+    text-align: center;
+}
+.habit-title{
+    margin-bottom: 1.2rem;
+}
+.habit-card-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: .8rem 0px;
+}
+.habit-card{
+    max-width: 18rem;
+    text-align: center;
+}
+.habit-card-image{
+    border-radius: 50%;
+}
+
+/* Exercises-Section */
+
+.exercises{
+    background-color: #222222;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exercises-content{
+    max-width: 30rem;
+}
+.exercises-image img{
+    border-radius: 1rem;
+    width: 90%;
+    transition: width 0.5s ease-in 0.2s;
+}
+.exercises-image:hover img{
+    width: 98%;
 }
