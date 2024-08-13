@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face{font-family:miama;font-style:italic;font-weight:400;src:local('Miama'),url(https://fonts.cdnfonts.com/s/302/Miama-Regular.woff) format('woff')}@font-face{font-family:miama;font-style:normal;font-weight:300;src:local('Miama'),url(https://fonts.cdnfonts.com/s/302/Miama.woff) format('woff')}
+
+#miama-font{
+    font-family: 'Miama', sans-serif;
+    font-weight: 200;
+    font-size: 150px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Shared Css */
+
+*{
+    color: #FFFFFF;
+    margin: 0px auto;
+    /* background-color: black; */
+}
+
+.primary-color{
+    color:#E6533C ;
+}
+.primary-button{
+background-color: #E6533C;
+}
+.description{
+    font-size: 1.2rem;
+    opacity: 50%;
+}
+
+.flex{
+    display: flex;
+}
+/* Header Section */
+
+/* NavBar */
+header{
+    background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.74),rgb(30, 30, 30) 50%, rgba(1,1,1,0.71) 100%);
+}
+nav{
+    max-width: 80%;
+    margin: 0px auto;
+}
+.banner-container{
+    max-width: 80%;
+}
+.nav-container{
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0px;
+}
+.nav-heading,.nav-menu{
+    margin: 0px;
+}
+.nav-heading h4{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.nav-menu>ul>li{
+
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.6rem 1.6rem;
+    font-weight: 600;
+}
+#home{
+    border-radius: 3.5rem;
+}
+
+/* Banner Section */
+.banner-container{
+    width: 100%;
+    align-items: center;
+}
+.banner-content{
+    width: 65%;
+    line-height: 80px;
+}
+#shape{
+    
+}
+.banner-image{
+    width: 35%;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-content-heading{
+    font-size: 6.5rem;
+    font-weight: 900;
+    margin: 0px;
+}
+.banner-content-description{
+    margin: 2.2rem 0px;
+    line-height: 2rem;
+}
+.banner-button{
+    gap: 0.8rem;
+}
+
+/* Button Section */
+button{
+    padding: 1.3rem 3.8rem;
+    border-radius: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    margin: 0px;
+}
+#download-btn{
+    border: 2px solid #FFFFFF;
+    background: transparent;
+}
+
+/* Card Section */
+.card{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem 1.5rem;
+    position: relative;
+    max-width: 12.5rem;
+    max-height: 8rem;
+}
+.card-position-bottom{
+    top: -190px;
+    left: -150px;
+    align-items: center;
+    gap: 1rem;
+}
+.card-position-top{
+    top: -590px;
+    left: 150px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-circle{
+    height: 3.3rem;
+    width: 3.3rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+.card-title{
+    color: #FAFAF9;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.card-description{
+    color: #EFEDE8;
+    font-size: 1.3rem;
+    opacity: 65%;
+}
