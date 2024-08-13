@@ -29,38 +29,39 @@
             </div>
         </nav>
 
-            <div class="banner-container flex">
+            <div class="banner-container">
 
-                <div class="banner-content">
-                    <p class="banner-content-heading">Get body in<span id="miama-font"> shape </span> & stay healthy</p>
-                    <p class="description banner-content-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                   
-                    <div class="banner-button flex">
-                        <button class="primary-button">Join Club Now!</button>
-                        <button id="download-btn">Download App</button>
-                    </div>
-    
-                </div>
-    
-                <div class="banner-image">
-                    <img src="images/Images 2.png" alt="">
-
-                    <div class="card card-position-bottom flex">
-
-                        <p class="card-circle"></p>
-
-                        <div class="card-container">
-                            <p class="card-title">350+</p>
-                            <p class="card-description">Video tutorial</p>
+                <div class="banner-content flex">
+                    <div class="banner-inner-content">
+                        <div class="banner-content-section">
+                            <p class="banner-content-heading">Get body in<span id="miama-font"> shape </span> & stay healthy</p>
+                            <p class="description banner-content-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                        </div> 
+                        <div class="banner-button flex">
+                            <button class="primary-button">Join Club Now!</button>
+                            <button id="download-btn">Download App</button>
                         </div>
-
                     </div>
 
-                    <div class="card-container card card-position-top">
-                        <p class="card-title">500+</p>
-                        <p class="card-description">Free Workout Videos</p>
+                    <div class="banner-image">
+                        <img src="images/Images 2.png" alt="">
+    
+                        <div class="card card-position-bottom flex">
+                            <p class="card-circle"></p>
+                            <div class="card-container">
+                                <p class="card-title">350+</p>
+                                <p class="card-description">Video tutorial</p>
+                            </div>
+    
+                        </div>
+    
+                        <div class="card-container card card-position-top">
+                            <p class="card-title">500+</p>
+                            <p class="card-description">Free Workout Videos</p>
+                        </div>
+    
                     </div>
-
+    
                 </div>
             </div>
 
@@ -117,6 +118,67 @@
             </div>
             
         </section>
+
+        <div class="bmi-container">
+
+            <div class="bmi-content">
+                <p class="bmi-title title">BMI Calculator</p>
+                <p class="bmi-description description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+
+            <div class="bmi-calculator flex">
+
+                <div class="bmi-chart flex">
+                    <p class="bmi-chart-title">BMI Calculator Chart</p>
+                    <table>
+                        <tr class="table-hade">
+                            <td>BMI</td>
+                            <td>Weight Status</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="description table-data">Below 18.5</td>
+                            <td class="description table-data">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td class="description table-data">18.5 - 24.9</td>
+                            <td class="description table-data">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="description table-data">25.0 - 29.9</td>
+                            <td class="description table-data">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="description table-data">30.0 - and Above</td>
+                            <td class="description table-data">Obese</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="bmi-form">
+                    <p class="bmi-chart-title">Calculate your BMI</p>
+                    <p class="description line-gap">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <div class="data-form">
+                        <input placeholder="Height/cm" type="text">
+                        <input placeholder="Weight/kg" type="text">
+                        <input placeholder="Age" type="text">
+                        <!-- <input placeholder="Sex" type="text"> -->
+                         <select id="dropdown"  name="" id="">
+                            <option class=""  value="">Sex</option> 
+                            <option class=""  value="">Male</option> 
+                            <option class=""  value="">Female</option> 
+                         </select>
+                         <select class="activity"  name="" id="activity-id">
+                            <option class="" value="">Select an activity factor</option>
+                         </select>
+                    </div>
+                    <button class="shared-button">Calculate</button>
+                
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
