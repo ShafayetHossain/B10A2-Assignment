@@ -43,7 +43,7 @@ background-color: #E6533C;
 }
 .shared-button{
     background-color: #E6533C;
-    padding: 1.3rem 4rem;
+    padding: 1rem 3.5rem;
     border-radius: 3.5rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -51,11 +51,11 @@ background-color: #E6533C;
     margin: 0px;
 }
 .description{
-    font-size: 1rem;
+    font-size: 0.87rem;
     opacity: 50%;
 }
 .title{
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -141,7 +141,7 @@ nav{
 
 /* Button Section */
 button{
-    padding: 1.3rem 3.8rem;
+    padding: 1rem 3.5rem;
     border-radius: 3.5rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -216,7 +216,7 @@ button{
     gap: 1.5rem;
 }
 .habit-content{
-    max-width: 43rem;
+    max-width: 41.9rem;
     text-align: center;
 }
 .habit-title{
@@ -228,7 +228,7 @@ button{
     margin: .8rem 0px;
 }
 .habit-card{
-    max-width: 18rem;
+    max-width: 15rem;
     text-align: center;
 }
 .habit-card-image{
@@ -242,6 +242,7 @@ button{
     border-radius: 1rem;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .exercises-content{
@@ -254,15 +255,17 @@ button{
     transition: width 0.7s ease-in 0.2s;
 }
 .exercises-image:hover img{
-    width: 98%;
+    width: 97%;
 }
 
 /* BMI Section */
+
 .bmi-calculator{
     width: 100%;
     background-color: #222222;
     margin: 2rem 0px;
     justify-content: space-between;
+    padding-bottom: 2rem;
 
 }
 .bmi-content{
@@ -342,6 +345,8 @@ input::placeholder{
 
   /* Team Section */
   .team-container{
+    margin-bottom: 0px;
+    padding-bottom: 3rem;
   }
 
   .team-content{
@@ -379,3 +384,56 @@ input::placeholder{
     border-radius: 8px;
   }
   
+
+  /* Footer Section */
+
+  footer{
+    width: 100%;
+    background-color: #222222;
+    margin-top: 0px;
+  }
+  .footer-container{
+    margin: 0px auto;
+    max-width: 80%;
+    justify-content:space-between;
+  }
+
+  .left-footer{
+    max-width: 25.6rem;
+    margin: 0px;
+  }
+  .middle-footer{
+    max-width: 11rem;
+  }
+
+  .left-footer-title{
+    color: #E6533C;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4.3rem;
+  }
+  .left-footer-description{
+    line-height: 1.5rem;
+  }
+  .middle-footer-title{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .middle-footer>p{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    opacity: 50%;
+    padding: 5px;
+  }
+hr{
+    border: 1px solid rgb(255, 255, 255, 10%);
+    margin: 0px auto;
+    max-width: 80%;
+    
+}
+  .copyright p{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 2rem 0px;
+  }
