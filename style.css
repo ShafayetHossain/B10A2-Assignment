@@ -35,6 +35,9 @@ section{
 .line-gap-bottom{
     margin-bottom: 20px;
 }
+.line-gap-top{
+    margin-top: 20px;
+}
 .primary-color{
     color:#E6533C ;
 }
