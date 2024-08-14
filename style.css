@@ -81,6 +81,9 @@ nav{
     justify-content: space-between;
     padding: 2rem 0px;
 }
+.bars{
+    visibility:hidden;
+}
 .nav-heading,.nav-menu{
     margin: 0px;
 }
@@ -148,7 +151,7 @@ button{
     border: none;
     margin: 0px;
 }
-#download-btn{
+.download-btn{
     border: 2px solid #FFFFFF;
     background: transparent;
 }
@@ -366,16 +369,20 @@ input::placeholder{
   .team-image-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    row-gap: 14px;
+    row-gap: 2rem;
     background-color: #222222;
     padding: 1.5rem 0px;
     border-radius: 8px;
-
   }
   .team-image-content{
     position: absolute;
     bottom: 8px;
     left: 16px;
+  }
+  .team-image-holder{
+    height: 17rem;
+    width: 20rem;
+
   }
   .team-image img{
     width: 100%;
@@ -436,4 +443,64 @@ hr{
     text-align: center;
     font-size: 1.1rem;
     padding: 2rem 0px;
+  }
+
+  /* Mobile Responsiver section*/
+
+  @media screen and (max-width: 576px)
+  {
+    .team-container{
+        display: flex;
+    }
+    .team-image-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 1.5rem 1rem;
+    }
+
+    .banner-content,
+    .habit-card-container,
+    .exercises,
+    .bmi-container,
+    .bmi-calculator,
+    .team-container,
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+      /* Nav Responsiver */
+    .nav-bar,.club{
+        display:none;
+    }
+    .bars{
+        visibility: visible;
+    }
+
+    /* Banner Section */
+
+    .shared-button,.download-btn{
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        font-size: 1rem;
+    }
+
+    /* Exercises Section */
+    .exercises-btn{
+        width: 100%;
+    }
+    .exercises-image img{
+        width: 97%;
+    }
+    .card-position-bottom{
+        bottom: -25rem;
+        left: 0px;
+    }
+    .card-position-top{
+        bottom: -13rem;
+        left: 16rem;
+        column-gap: 0px;
+    }
+    .bmi-form{
+        width: 95%;
+    }
   }
