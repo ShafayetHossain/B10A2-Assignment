@@ -303,8 +303,8 @@ button{
 }
 
 .figure-content{
-    height: 219px;
-    width: 477px;
+    max-height: 219px;
+    max-width: 477px;
 }
 
 .figure-heading{
@@ -604,5 +604,10 @@ hr{
         height: 100%;
     }
 
+    .gym-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
   }
