@@ -263,7 +263,92 @@ button{
 .exercises-image:hover img{
     width: 97%;
 }
+/* gym section Start */
 
+.gym{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym-container{
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 8px;
+    background-color: #222222;
+}
+
+.gym-content{
+    text-align: center;
+}
+
+.gym-heading{ 
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.gym-description{
+    font-size: 1ream;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+.gym-figure{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 47px;
+
+}
+
+.figure-content{
+    height: 219px;
+    width: 477px;
+}
+
+.figure-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;}
+
+.figure-discription{
+    font-size: 1rem;
+    color: #FFFFFF;
+    opacity: 70%;
+    margin: 1.2rem 0px;
+}
+
+.figure-button{
+    background-color: #E6533C;
+    padding: 1rem 3.5rem;
+    border-radius: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    margin: 0px;
+}
+.figure-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.figure-image{
+
+    height: 15rem;
+    width: 17rem;
+}
+.figure-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.reverse-figure{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+/* gym section End */
 /* BMI Section */
 
 .bmi-calculator{
@@ -506,4 +591,18 @@ hr{
     .bmi-form{
         width: 95%;
     }
+    .bmi-content{
+        margin-left: 1rem;
+    }
+
+    /* Gym Section */
+    .gym-figure{
+        flex-direction: column-reverse;
+    }
+    .figure-content{
+        width: 100%;
+        height: 100%;
+    }
+
+
   }
